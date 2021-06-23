@@ -55,3 +55,14 @@ spec:
     }
 }
 ```
+
+## Docker Hub
+docker push jiramot/aws_kubectl:2
+
+## Version
+- 3: Update kubectl and aws-cli 
+```
+aws-cli/1.19.98 Python/3.9.5 Linux/5.10.25-linuxkit botocore/1.20.98
+bash-5.1# kubectl version --client
+Client Version: version.Info{Major:"1", Minor:"21", GitVersion:"v1.21.0", GitCommit:"cb303e613a121a29364f75cc67d3d580833a7479", GitTreeState:"clean", BuildDate:"2021-04-08T16:31:21Z", GoVersion:"go1.16.1", Compiler:"gc", Platform:"linux/amd64"}
+```
